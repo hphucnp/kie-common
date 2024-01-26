@@ -195,6 +195,11 @@ export function Tile(props: { space: Service.Space; onSelect: () => void }) {
           className={
             "card-pf card-pf-view card-pf-view-select card-pf-view-single-select"
           }
+          style={{
+            backgroundColor: '#5b6d67',
+            borderRadius: '10px',
+            color: 'white'
+          }}
           onClick={() => props.onSelect()}
         >
           <div className={"card-pf-body"}>
