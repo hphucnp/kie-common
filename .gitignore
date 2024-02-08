@@ -1,5 +1,7 @@
 # everywhere
 target/
+kie-wb-common-ala/**/bin
+kie-wb-common-ala/kie-wb-common-ala-ui/kie-wb-common-ala-docker-provider/bin
 
 # only in the root directory
 /classes
@@ -8,9 +10,9 @@ target/
 /repositories
 
 # Eclipse, Netbeans and IntelliJ files
-/.*
-/**/.*
 !.gitignore
+.idea
+.vscode
 /nbproject
 *.ipr
 *.iws
